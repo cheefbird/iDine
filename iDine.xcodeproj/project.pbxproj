@@ -17,6 +17,7 @@
 		D53CF4A523408EBB005B468B /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53CF4A323408EBA005B468B /* Menu.swift */; };
 		D53CF4A623408EBB005B468B /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53CF4A423408EBA005B468B /* Order.swift */; };
 		D53CF4A823408ED0005B468B /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = D53CF4A723408ED0005B468B /* menu.json */; };
+		D53CF4AC2340954C005B468B /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53CF4AB2340954C005B468B /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D53CF4A323408EBA005B468B /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		D53CF4A423408EBA005B468B /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		D53CF4A723408ED0005B468B /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		D53CF4AB2340954C005B468B /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				D53CF49823408E8E005B468B /* LaunchScreen.storyboard */,
 				D53CF49B23408E8E005B468B /* Info.plist */,
 				D53CF49523408E8E005B468B /* Preview Content */,
+				D53CF4AB2340954C005B468B /* ItemRow.swift */,
 			);
 			path = iDine;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				D53CF4A623408EBB005B468B /* Order.swift in Sources */,
 				D53CF48E23408E8C005B468B /* AppDelegate.swift in Sources */,
 				D53CF49023408E8C005B468B /* SceneDelegate.swift in Sources */,
+				D53CF4AC2340954C005B468B /* ItemRow.swift in Sources */,
 				D53CF49223408E8C005B468B /* ContentView.swift in Sources */,
 				D53CF4A223408EA9005B468B /* Helper.swift in Sources */,
 				D53CF4A523408EBB005B468B /* Menu.swift in Sources */,
