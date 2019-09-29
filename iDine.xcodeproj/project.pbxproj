@@ -68,15 +68,15 @@
 			children = (
 				D53CF4A723408ED0005B468B /* menu.json */,
 				D53CF4A123408EA9005B468B /* Helper.swift */,
-				D53CF4A323408EBA005B468B /* Menu.swift */,
 				D53CF4A423408EBA005B468B /* Order.swift */,
 				D53CF48D23408E8C005B468B /* AppDelegate.swift */,
 				D53CF48F23408E8C005B468B /* SceneDelegate.swift */,
-				D53CF49123408E8C005B468B /* ContentView.swift */,
 				D53CF49323408E8E005B468B /* Assets.xcassets */,
 				D53CF49823408E8E005B468B /* LaunchScreen.storyboard */,
 				D53CF49B23408E8E005B468B /* Info.plist */,
 				D53CF49523408E8E005B468B /* Preview Content */,
+				D53CF49123408E8C005B468B /* ContentView.swift */,
+				D53CF4A323408EBA005B468B /* Menu.swift */,
 				D53CF4AB2340954C005B468B /* ItemRow.swift */,
 			);
 			path = iDine;
