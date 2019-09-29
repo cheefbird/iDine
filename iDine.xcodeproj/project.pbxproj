@@ -64,9 +64,11 @@
 		D53CF48C23408E8C005B468B /* iDine */ = {
 			isa = PBXGroup;
 			children = (
+				D53CF4A723408ED0005B468B /* menu.json */,
+				D53CF4A123408EA9005B468B /* Helper.swift */,
+				D53CF4A323408EBA005B468B /* Menu.swift */,
+				D53CF4A423408EBA005B468B /* Order.swift */,
 				D53CF48D23408E8C005B468B /* AppDelegate.swift */,
-				D53CF4AA23408F4C005B468B /* Helpers */,
-				D53CF4A923408F38005B468B /* Models */,
 				D53CF48F23408E8C005B468B /* SceneDelegate.swift */,
 				D53CF49123408E8C005B468B /* ContentView.swift */,
 				D53CF49323408E8E005B468B /* Assets.xcassets */,
@@ -83,24 +85,6 @@
 				D53CF49623408E8E005B468B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		D53CF4A923408F38005B468B /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				D53CF4A323408EBA005B468B /* Menu.swift */,
-				D53CF4A423408EBA005B468B /* Order.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		D53CF4AA23408F4C005B468B /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				D53CF4A723408ED0005B468B /* menu.json */,
-				D53CF4A123408EA9005B468B /* Helper.swift */,
-			);
-			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
