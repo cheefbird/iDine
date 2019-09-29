@@ -13,6 +13,10 @@
 		D53CF49423408E8E005B468B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D53CF49323408E8E005B468B /* Assets.xcassets */; };
 		D53CF49723408E8E005B468B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D53CF49623408E8E005B468B /* Preview Assets.xcassets */; };
 		D53CF49A23408E8E005B468B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D53CF49823408E8E005B468B /* LaunchScreen.storyboard */; };
+		D53CF4A223408EA9005B468B /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53CF4A123408EA9005B468B /* Helper.swift */; };
+		D53CF4A523408EBB005B468B /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53CF4A323408EBA005B468B /* Menu.swift */; };
+		D53CF4A623408EBB005B468B /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53CF4A423408EBA005B468B /* Order.swift */; };
+		D53CF4A823408ED0005B468B /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = D53CF4A723408ED0005B468B /* menu.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		D53CF49623408E8E005B468B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D53CF49923408E8E005B468B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D53CF49B23408E8E005B468B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D53CF4A123408EA9005B468B /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		D53CF4A323408EBA005B468B /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		D53CF4A423408EBA005B468B /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		D53CF4A723408ED0005B468B /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				D53CF48D23408E8C005B468B /* AppDelegate.swift */,
+				D53CF4AA23408F4C005B468B /* Helpers */,
+				D53CF4A923408F38005B468B /* Models */,
 				D53CF48F23408E8C005B468B /* SceneDelegate.swift */,
 				D53CF49123408E8C005B468B /* ContentView.swift */,
 				D53CF49323408E8E005B468B /* Assets.xcassets */,
@@ -73,6 +83,24 @@
 				D53CF49623408E8E005B468B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D53CF4A923408F38005B468B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D53CF4A323408EBA005B468B /* Menu.swift */,
+				D53CF4A423408EBA005B468B /* Order.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D53CF4AA23408F4C005B468B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D53CF4A723408ED0005B468B /* menu.json */,
+				D53CF4A123408EA9005B468B /* Helper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +163,7 @@
 			files = (
 				D53CF49A23408E8E005B468B /* LaunchScreen.storyboard in Resources */,
 				D53CF49723408E8E005B468B /* Preview Assets.xcassets in Resources */,
+				D53CF4A823408ED0005B468B /* menu.json in Resources */,
 				D53CF49423408E8E005B468B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,9 +175,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D53CF4A623408EBB005B468B /* Order.swift in Sources */,
 				D53CF48E23408E8C005B468B /* AppDelegate.swift in Sources */,
 				D53CF49023408E8C005B468B /* SceneDelegate.swift in Sources */,
 				D53CF49223408E8C005B468B /* ContentView.swift in Sources */,
+				D53CF4A223408EA9005B468B /* Helper.swift in Sources */,
+				D53CF4A523408EBB005B468B /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
