@@ -19,6 +19,7 @@
 		D53CF4A823408ED0005B468B /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = D53CF4A723408ED0005B468B /* menu.json */; };
 		D53CF4AC2340954C005B468B /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53CF4AB2340954C005B468B /* ItemRow.swift */; };
 		D5A05DA623409F4D0090818E /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A05DA523409F4D0090818E /* ItemDetail.swift */; };
+		D5A05DA82340A3200090818E /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A05DA72340A3200090818E /* OrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		D53CF4A723408ED0005B468B /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 		D53CF4AB2340954C005B468B /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		D5A05DA523409F4D0090818E /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		D5A05DA72340A3200090818E /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				D53CF4A323408EBA005B468B /* Menu.swift */,
 				D53CF4AB2340954C005B468B /* ItemRow.swift */,
 				D5A05DA523409F4D0090818E /* ItemDetail.swift */,
+				D5A05DA72340A3200090818E /* OrderView.swift */,
 			);
 			path = iDine;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				D53CF4AC2340954C005B468B /* ItemRow.swift in Sources */,
 				D53CF49223408E8C005B468B /* ContentView.swift in Sources */,
 				D5A05DA623409F4D0090818E /* ItemDetail.swift in Sources */,
+				D5A05DA82340A3200090818E /* OrderView.swift in Sources */,
 				D53CF4A223408EA9005B468B /* Helper.swift in Sources */,
 				D53CF4A523408EBB005B468B /* Menu.swift in Sources */,
 			);
