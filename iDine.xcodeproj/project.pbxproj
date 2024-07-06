@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		062EE4D52C38DCF6001D6FAC /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062EE4D42C38DCF6001D6FAC /* OrderView.swift */; };
+		062EE4D72C38DE17001D6FAC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062EE4D62C38DE17001D6FAC /* MainView.swift */; };
 		068F9B422C38B6F300B1ACA7 /* iDineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068F9B412C38B6F300B1ACA7 /* iDineApp.swift */; };
 		068F9B442C38B6F300B1ACA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068F9B432C38B6F300B1ACA7 /* ContentView.swift */; };
 		068F9B462C38B6F400B1ACA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 068F9B452C38B6F400B1ACA7 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		062EE4D42C38DCF6001D6FAC /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		062EE4D62C38DE17001D6FAC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		068F9B3E2C38B6F300B1ACA7 /* iDine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		068F9B412C38B6F300B1ACA7 /* iDineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineApp.swift; sourceTree = "<group>"; };
 		068F9B432C38B6F300B1ACA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				068F9B552C38B7DF00B1ACA7 /* menu.json */,
 				068F9B472C38B6F400B1ACA7 /* Preview Content */,
 				062EE4D42C38DCF6001D6FAC /* OrderView.swift */,
+				062EE4D62C38DE17001D6FAC /* MainView.swift */,
 			);
 			path = iDine;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06EBC5E92C38CAD000C07F8A /* ItemDetail.swift in Sources */,
+				062EE4D72C38DE17001D6FAC /* MainView.swift in Sources */,
 				062EE4D52C38DCF6001D6FAC /* OrderView.swift in Sources */,
 				068F9B522C38B7BE00B1ACA7 /* Order.swift in Sources */,
 				068F9B532C38B7BE00B1ACA7 /* Helper.swift in Sources */,
