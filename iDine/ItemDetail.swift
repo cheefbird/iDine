@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ItemDetail: View {
     @EnvironmentObject var order: Order
-    
+
     let item: MenuItem
 
     var body: some View {
@@ -27,12 +27,12 @@ struct ItemDetail: View {
             }
             Text(item.description)
                 .padding()
-            
+
             Button("Order This") {
                 order.add(item: item)
             }
             .buttonStyle(.borderedProminent)
-            
+
             Spacer()
         }
         .navigationTitle(item.name)

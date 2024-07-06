@@ -9,7 +9,7 @@ import SwiftUI
 
 struct OrderView: View {
     @EnvironmentObject var order: Order
-    
+
     var body: some View {
         NavigationStack {
             List {
@@ -22,7 +22,7 @@ struct OrderView: View {
                         }
                     }
                 }
-                
+
                 Section {
                     NavigationLink("Place Order") {
                         Text("Checkout")

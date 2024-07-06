@@ -9,17 +9,16 @@ import SwiftUI
 
 struct MainView: View {
     @EnvironmentObject var order: Order
-    
+
     var body: some View {
         TabView {
             Tab("Menu", systemImage: "list.dash") {
                 ContentView()
             }
-            
+
             Tab("Order", systemImage: "square.and.pencil") {
                 OrderView()
             }
-                
         }
     }
 }
