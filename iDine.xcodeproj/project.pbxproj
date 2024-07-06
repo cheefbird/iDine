@@ -15,6 +15,7 @@
 		068F9B532C38B7BE00B1ACA7 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068F9B4F2C38B7BE00B1ACA7 /* Helper.swift */; };
 		068F9B542C38B7BE00B1ACA7 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068F9B502C38B7BE00B1ACA7 /* Menu.swift */; };
 		068F9B562C38B7DF00B1ACA7 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 068F9B552C38B7DF00B1ACA7 /* menu.json */; };
+		06EBC5E72C38C11000C07F8A /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EBC5E62C38C11000C07F8A /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		068F9B502C38B7BE00B1ACA7 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		068F9B512C38B7BE00B1ACA7 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		068F9B552C38B7DF00B1ACA7 /* menu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		06EBC5E62C38C11000C07F8A /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				068F9B502C38B7BE00B1ACA7 /* Menu.swift */,
 				068F9B512C38B7BE00B1ACA7 /* Order.swift */,
 				068F9B432C38B6F300B1ACA7 /* ContentView.swift */,
+				06EBC5E62C38C11000C07F8A /* ItemRow.swift */,
 				068F9B452C38B6F400B1ACA7 /* Assets.xcassets */,
 				068F9B552C38B7DF00B1ACA7 /* menu.json */,
 				068F9B472C38B6F400B1ACA7 /* Preview Content */,
@@ -153,6 +156,7 @@
 				068F9B522C38B7BE00B1ACA7 /* Order.swift in Sources */,
 				068F9B532C38B7BE00B1ACA7 /* Helper.swift in Sources */,
 				068F9B542C38B7BE00B1ACA7 /* Menu.swift in Sources */,
+				06EBC5E72C38C11000C07F8A /* ItemRow.swift in Sources */,
 				068F9B442C38B6F300B1ACA7 /* ContentView.swift in Sources */,
 				068F9B422C38B6F300B1ACA7 /* iDineApp.swift in Sources */,
 			);
