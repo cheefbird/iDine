@@ -14,6 +14,7 @@ struct CheckoutView: View {
     @State private var addLoyaltyDetails = false
     @State private var loyaltyNumber = ""
     @State private var tipSize = 0
+    @State private var showingPaymentAlert = false
 
     // TODO: Refactor to optimize totalPrice & tipAmount
     var totalPrice: String {
@@ -59,6 +60,7 @@ struct CheckoutView: View {
                 if tipSize > 0 {
                     Text("Tip: \(tipAmount)")
                         .padding(.leading, 30)
+                        .fontWeight(.light)
                         .italic()
                         .font(.footnote)
                 }
@@ -66,12 +68,17 @@ struct CheckoutView: View {
 
             Section("Total: \(totalPrice)") {
                 Button("Confirm Order") {
-                    // TODO: Place the order
+                    showingPaymentAlert.toggle()
                 }
             }
         }
         .navigationTitle("Payment")
         .navigationBarTitleDisplayMode(.inline)
+        .alert("Order Confirmed", isPresented: $showingPaymentAlert) {
+            // TODO: Add custom buttons here
+        } message: {
+            Text("Your total was \(totalPrice) -- Thank You!")
+        }
     }
 }
 
