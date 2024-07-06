@@ -15,9 +15,21 @@ struct CheckoutView: View {
     @State private var loyaltyNumber = ""
     @State private var tipSize = 0
 
+    // TODO: Refactor to optimize totalPrice & tipAmount
+    var totalPrice: String {
+        let total = Double(order.total)
+        let tipValue = total / 100 * Double(tipSize)
+        return (total + tipValue).formatted(.currency(code: "USD"))
+    }
+
+    var tipAmount: String {
+        let total = Double(order.total)
+        let tipValue = total / 100 * Double(tipSize)
+        return tipValue.formatted(.currency(code: "USD"))
+    }
+
     let paymentTypes = ["Cash", "Credit Card", "iDine Points"]
-    let tipTest = [10]
-    let tipSizes = [7, 10, 15, 0]
+    let tipSizes = [7, 10, 15, 20, 0]
 
     var body: some View {
         Form {
@@ -27,20 +39,32 @@ struct CheckoutView: View {
                         Text($0)
                     }
                 }
-                Toggle("Add iDine loyalty card", isOn: $addLoyaltyDetails.animation())
+                Toggle(
+                    "Add iDine loyalty card",
+                    isOn: $addLoyaltyDetails.animation()
+                )
                 if addLoyaltyDetails {
                     TextField("Enter your iDine ID", text: $loyaltyNumber)
                 }
             }
+
             Section("Add a tip?") {
-                Picker("Percentage:", selection: $tipSize) {
+                Picker("Percentage", selection: $tipSize) {
                     ForEach(tipSizes, id: \.self) {
-                        Text("\($0)")
+                        Text("\($0)%")
                     }
                 }
                 .pickerStyle(.segmented)
+
+                if tipSize > 0 {
+                    Text("Tip: \(tipAmount)")
+                        .padding(.leading, 30)
+                        .italic()
+                        .font(.footnote)
+                }
             }
-            Section("Total: $100") {
+
+            Section("Total: \(totalPrice)") {
                 Button("Confirm Order") {
                     // TODO: Place the order
                 }
