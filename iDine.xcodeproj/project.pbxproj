@@ -69,19 +69,19 @@
 		068F9B402C38B6F300B1ACA7 /* iDine */ = {
 			isa = PBXGroup;
 			children = (
-				06EBC5E82C38CAD000C07F8A /* ItemDetail.swift */,
-				068F9B412C38B6F300B1ACA7 /* iDineApp.swift */,
+				068F9B452C38B6F400B1ACA7 /* Assets.xcassets */,
+				062EE4D82C38E0C9001D6FAC /* CheckoutView.swift */,
+				068F9B432C38B6F300B1ACA7 /* ContentView.swift */,
 				068F9B4F2C38B7BE00B1ACA7 /* Helper.swift */,
+				068F9B412C38B6F300B1ACA7 /* iDineApp.swift */,
+				06EBC5E82C38CAD000C07F8A /* ItemDetail.swift */,
+				06EBC5E62C38C11000C07F8A /* ItemRow.swift */,
+				062EE4D62C38DE17001D6FAC /* MainView.swift */,
 				068F9B502C38B7BE00B1ACA7 /* Menu.swift */,
 				068F9B512C38B7BE00B1ACA7 /* Order.swift */,
-				068F9B432C38B6F300B1ACA7 /* ContentView.swift */,
-				06EBC5E62C38C11000C07F8A /* ItemRow.swift */,
-				068F9B452C38B6F400B1ACA7 /* Assets.xcassets */,
+				062EE4D42C38DCF6001D6FAC /* OrderView.swift */,
 				068F9B552C38B7DF00B1ACA7 /* menu.json */,
 				068F9B472C38B6F400B1ACA7 /* Preview Content */,
-				062EE4D42C38DCF6001D6FAC /* OrderView.swift */,
-				062EE4D62C38DE17001D6FAC /* MainView.swift */,
-				062EE4D82C38E0C9001D6FAC /* CheckoutView.swift */,
 			);
 			path = iDine;
 			sourceTree = "<group>";
